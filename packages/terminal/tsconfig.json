@@ -19,6 +19,6 @@
     "isolatedModules": true,
     "jsxImportSource": "@emotion/react" // Add the css prop
   },
-  "include": ["src/**/*.tsx", "types"],
+  "include": ["src/**/*.tsx", "types", "node_modules/@kali-react/terminal"],
   "exclude": ["node_modules", "dist"]
 }

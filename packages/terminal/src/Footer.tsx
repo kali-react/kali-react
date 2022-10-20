@@ -1,5 +1,5 @@
 import tw, { css, styled, theme } from "twin.macro";
-
+import { useTerminalById } from "./redux/selections";
 interface ButtonProps {
   variant?: "primary" | "secondary";
   isSmall?: boolean;
@@ -31,4 +31,7 @@ export const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
     color: ${theme`colors.white`};
   `,
 ]);
-
+export const ReduxButton = () => {
+  const terminal = useTerminalById("1");
+  return <Button variant="primary">={JSON.stringify(terminal)}</Button>;
+};
