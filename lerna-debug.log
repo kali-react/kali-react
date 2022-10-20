@@ -1,0 +1,46 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   private: false,
+0 silly argv   lernaVersion: '5.3.0',
+0 silly argv   '$0': 'C:\\Users\\MBM\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v5.3.0
+2 verbose rootPath F:\Work\kali\kali-react
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "59a5f77" => {"refCount":"3","sha":"59a5f77","isDirty":false}
+14 info Assuming all packages changed
+15 verbose updated components
+16 verbose git-describe undefined => "59a5f77"
+17 silly git-describe parsed => {"refCount":"3","sha":"59a5f77","isDirty":false}
+18 info execute Skipping releases
+19 silly lifecycle No script for "preversion" in "root", continuing
+20 silly lifecycle No script for "preversion" in "components", continuing
+21 silly lifecycle No script for "version" in "components", continuing
+22 silly lifecycle No script for "version" in "root", continuing
+23 silly gitAdd [
+23 silly gitAdd   'packages/terminal/package.json',
+23 silly gitAdd   'packages/terminal/package-lock.json',
+23 silly gitAdd   'lerna.json'
+23 silly gitAdd ]
+24 silly gitCommit v0.0.1
+25 verbose git [ 'commit', '-m', 'v0.0.1' ]
+26 silly gitTag v0.0.1
+27 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
+28 silly lifecycle No script for "postversion" in "components", continuing
+29 silly lifecycle No script for "postversion" in "root", continuing
+30 info git Pushing tags...
+31 silly gitPush origin main
+32 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+32 error remote: Permission to lerna/getting-started-example.git denied to Arman-AP.
+32 error fatal: unable to access 'https://github.com/lerna/getting-started-example.git/': The requested URL returned error: 403
+32 error     at makeError (F:\Work\kali\kali-react\node_modules\execa\lib\error.js:60:11)
+32 error     at handlePromise (F:\Work\kali\kali-react\node_modules\execa\index.js:118:26)
