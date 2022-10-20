@@ -13,6 +13,9 @@
       "preset": "emotion"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "yarn type-check -- --watch",
@@ -52,5 +55,6 @@
     "tailwindcss": "^2.2.19",
     "twin.macro": "^2.8.1",
     "typescript": "^4.4.4"
-  }
+  },
+  "gitHead": "1798bee175d3d41385ef5c73862095081e933f89"
 }
