@@ -1,6 +1,6 @@
 {
   "name": "@kali-react/terminal",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "license": "MIT",
   "module": "dist/components.esm.js",
   "types": "dist/types/index.d.ts",
@@ -38,7 +38,10 @@
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
+    "babel-plugin-macros": "^3.1.0",
+    "postcss": "^8.3.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.59.0",
@@ -46,11 +49,8 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "typescript": "^4.4.4",
-    "autoprefixer": "^10.4.0",
-    "babel-plugin-macros": "^3.1.0",
-    "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19",
-    "twin.macro": "^2.8.1"
+    "twin.macro": "^2.8.1",
+    "typescript": "^4.4.4"
   }
 }
