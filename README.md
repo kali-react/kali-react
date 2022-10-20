@@ -1,3 +1,2 @@
-# Kali Linux On the Web 
-## Built with React, Typescript and TailwindCSS
+# A Kali Linux Built with React, Typescript and TailwindCSS
 
