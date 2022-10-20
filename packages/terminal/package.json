@@ -1,6 +1,6 @@
 {
   "name": "@kali-react/terminal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "module": "dist/components.esm.js",
   "types": "dist/types/index.d.ts",
@@ -26,9 +26,9 @@
   "peerDependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@reduxjs/toolkit": "^1.8.6",
     "@types/react": "^17.0.34",
     "react": "^17.0.2",
-    "@reduxjs/toolkit": "^1.8.6",
     "react-redux": "^8.0.4"
   },
   "dependencies": {
