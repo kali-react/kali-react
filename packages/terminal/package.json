@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@kali-react/terminal",
   "version": "1.0.0",
   "license": "MIT",
   "module": "dist/components.esm.js",
