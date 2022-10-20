@@ -5,7 +5,7 @@ interface ButtonProps {
   isSmall?: boolean;
 }
 
-export const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
+const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
   // The common button styles
   tw`px-8 py-2 rounded focus:outline-none transform duration-75`,
 
