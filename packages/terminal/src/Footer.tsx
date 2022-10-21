@@ -1,6 +1,6 @@
 import tw, { css, styled, theme } from "twin.macro";
-import { useTerminalById } from "./redux/selections";
-interface ButtonProps {
+import h from "@kali-react/hooks";
+export interface ButtonProps {
   variant?: "primary" | "secondary";
   isSmall?: boolean;
 }
@@ -32,6 +32,5 @@ export const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
   `,
 ]);
 export const ReduxButton = () => {
-  const terminal = useTerminalById("1");
-  return <Button variant="primary">={JSON.stringify(terminal)}</Button>;
+  return <Button variant="primary"></Button>;
 };
